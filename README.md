@@ -75,4 +75,4 @@ Contributions are welcome! Please open issues or pull requests for bug fixes, im
 For questions or support, please open an issue on the GitHub repository.
 ---
 
-[! Image](https://github.com/Adithya2406/Retinal-Vessel-Analysis/blob/main/Block%20diagram.png)
+![Blank diagram](https://github.com/Adithya2406/Retinal-Vessel-Analysis/blob/main/Block%20diagram.png)
