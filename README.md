@@ -5,6 +5,7 @@ An AI-powered pipeline for retinal vessel analysis, achieving 87.5% accuracy in 
 ## Table of Contents
 - **Overview**
 - **Features**
+- **Pipeline Overview**
 - **Application**
 - **Installation**
 - **Usage**
@@ -23,6 +24,16 @@ Retinal Vessel Analysis is a machine learning pipeline designed to analyze retin
 - AI-based classification for hypertension and cardiovascular disease risk
 - Achieves 87.5% accuracy on benchmark datasets
 - Modular codebase for easy extension and experimentation
+
+---
+## **Pipeline Overview**
+- **Input Processing**: Retinal fundus images are preprocessed with noise reduction, normalization, and contrast enhancement
+- **Vessel Segmentation**: Deep learning model (U-Net) automatically identifies and segments blood vessels from the retinal background
+- **Artery-Vein Classification**: Machine learning classifier distinguishes between arteries and veins based on color intensity and morphological features
+- **Diameter Measurement**: Automated measurement of vessel diameters using centerline extraction and calibrated width calculation
+- **AVR Calculation**: Computes Arteriovenous Ratio (AVR) - the key biomarker for cardiovascular risk assessment
+- **Risk Classification**: AI model analyzes AVR and vessel features to predict hypertension and cardiovascular disease risk with 87.5% accuracy
+- **Output Generation**: Produces segmentation masks, quantitative measurements, and clinical risk assessment reports
 
 ---
 ## **Application**
